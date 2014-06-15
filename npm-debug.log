@@ -1,0 +1,1039 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'generator-steroids' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'generator-steroids', null ]
+6 verbose cache add name=undefined spec="generator-steroids" args=["generator-steroids",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'generator-steroids',
+7 verbose parsed url   path: 'generator-steroids',
+7 verbose parsed url   href: 'generator-steroids' }
+8 silly lockFile c5e069c6-generator-steroids generator-steroids
+9 verbose lock generator-steroids /Users/danielpetkevich/.npm/c5e069c6-generator-steroids.lock
+10 silly lockFile c5e069c6-generator-steroids generator-steroids
+11 silly lockFile c5e069c6-generator-steroids generator-steroids
+12 verbose addNamed [ 'generator-steroids', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile a4c37a9e-generator-steroids generator-steroids@
+15 verbose lock generator-steroids@ /Users/danielpetkevich/.npm/a4c37a9e-generator-steroids.lock
+16 silly addNameRange { name: 'generator-steroids', range: '*', hasData: false }
+17 verbose url raw generator-steroids
+18 verbose url resolving [ 'https://registry.npmjs.org/', './generator-steroids' ]
+19 verbose url resolved https://registry.npmjs.org/generator-steroids
+20 info trying registry request attempt 1 at 23:23:33
+21 verbose etag "61VRTBOA2HLEJKO0UNBDFOJ18"
+22 http GET https://registry.npmjs.org/generator-steroids
+23 http 304 https://registry.npmjs.org/generator-steroids
+24 silly registry.get cb [ 304,
+24 silly registry.get   { date: 'Wed, 11 Jun 2014 06:23:33 GMT',
+24 silly registry.get     server: 'Apache',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     'last-modified': 'Wed, 11 Jun 2014 06:23:33 GMT',
+24 silly registry.get     'cache-control': 'max-age=1',
+24 silly registry.get     etag: '"61VRTBOA2HLEJKO0UNBDFOJ18"',
+24 silly registry.get     'x-served-by': 'cache-lax1425-LAX',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1402467813.949807,VS0,VE41',
+24 silly registry.get     vary: 'Accept',
+24 silly registry.get     'content-length': '0',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 verbose etag generator-steroids from cache
+26 silly addNameRange number 2 { name: 'generator-steroids', range: '*', hasData: true }
+27 silly addNameRange versions [ 'generator-steroids',
+27 silly addNameRange   [ '0.1.0',
+27 silly addNameRange     '0.1.1',
+27 silly addNameRange     '0.2.0',
+27 silly addNameRange     '0.2.1',
+27 silly addNameRange     '0.2.2',
+27 silly addNameRange     '0.2.3',
+27 silly addNameRange     '0.2.4',
+27 silly addNameRange     '0.2.5',
+27 silly addNameRange     '0.2.6',
+27 silly addNameRange     '0.2.7',
+27 silly addNameRange     '0.2.8',
+27 silly addNameRange     '0.2.9',
+27 silly addNameRange     '0.2.10',
+27 silly addNameRange     '0.2.11',
+27 silly addNameRange     '0.2.12',
+27 silly addNameRange     '0.2.13',
+27 silly addNameRange     '0.2.14',
+27 silly addNameRange     '0.2.15',
+27 silly addNameRange     '0.2.16',
+27 silly addNameRange     '0.2.17',
+27 silly addNameRange     '0.2.18',
+27 silly addNameRange     '0.2.20',
+27 silly addNameRange     '0.3.0',
+27 silly addNameRange     '0.3.1',
+27 silly addNameRange     '0.3.2',
+27 silly addNameRange     '0.3.3' ] ]
+28 verbose addNamed [ 'generator-steroids', '0.3.3' ]
+29 verbose addNamed [ '0.3.3', '0.3.3' ]
+30 silly lockFile b3224ebb-generator-steroids-0-3-3 generator-steroids@0.3.3
+31 verbose lock generator-steroids@0.3.3 /Users/danielpetkevich/.npm/b3224ebb-generator-steroids-0-3-3.lock
+32 silly lockFile b3224ebb-generator-steroids-0-3-3 generator-steroids@0.3.3
+33 silly lockFile b3224ebb-generator-steroids-0-3-3 generator-steroids@0.3.3
+34 silly lockFile a4c37a9e-generator-steroids generator-steroids@
+35 silly lockFile a4c37a9e-generator-steroids generator-steroids@
+36 silly resolved [ { name: 'generator-steroids',
+36 silly resolved     version: '0.3.3',
+36 silly resolved     description: 'A Yeoman generator for Steroids',
+36 silly resolved     keywords: [ 'yeoman-generator', 'steroids-js', 'steroids' ],
+36 silly resolved     homepage: 'https://github.com/AppGyver/generator-steroids',
+36 silly resolved     bugs: { url: 'https://github.com/AppGyver/generator-steroids/issues' },
+36 silly resolved     author:
+36 silly resolved      { name: 'Harri Sarsa',
+36 silly resolved        email: 'harri.sarsa@appgyver.com',
+36 silly resolved        url: 'https://github.com/AppGyver' },
+36 silly resolved     main: 'app/index.js',
+36 silly resolved     repository:
+36 silly resolved      { type: 'git',
+36 silly resolved        url: 'git://github.com/appgyver/generator-steroids.git' },
+36 silly resolved     scripts: { test: 'mocha' },
+36 silly resolved     dependencies:
+36 silly resolved      { 'yeoman-generator': '0.13.4',
+36 silly resolved        'coffee-script': '1.6.3',
+36 silly resolved        chalk: '0.3.0',
+36 silly resolved        bower: '1.2.7',
+36 silly resolved        dargs: '0.1.0',
+36 silly resolved        cardinal: '0.4.2',
+36 silly resolved        mout: '0.8.0',
+36 silly resolved        archy: '0.0.2',
+36 silly resolved        'stringify-object': '0.1.7',
+36 silly resolved        q: '1.0.0',
+36 silly resolved        inquirer: '0.4.0' },
+36 silly resolved     devDependencies: { mocha: '1.12.0' },
+36 silly resolved     peerDependencies: { yo: '>=1.0.0-rc.1' },
+36 silly resolved     engines: { node: '>=0.10.0', npm: '>=1.2.10' },
+36 silly resolved     licenses: [ [Object] ],
+36 silly resolved     readme: '# Steroids generator\n\nA [Yeoman](http://yeoman.io) generator for [Steroids](https://github.com/appgyver/steroids).\n\n### Available generators\n\n* `steroids:ng-resource` – generates an AngularJS-based resource using local data.\n* `steroids:example:<exampleName>` – Generates an example demonstrating a Steroids feature.\n* `steroids:tutorial:<tutorialName>` – Generates the Steroids tutorials.\n\n## Installation\n\nMake sure you have [yo](https://github.com/yeoman/yo) installed:\n\n```\n$ npm install yo -g\n```\n\nThen, install the Steroids generator with\n\n```\n$ npm install generator-steroids -g\n```\n\n## Usage\n\nCreate a new Steroids project with [Steroids npm](https://github.com/appgyver/steroids) and go to the folder. \n\nFor a resource:\n\n```\nyo steroids:<resource>\n```\n\nand give your resource a name. The resource files will be created and Bower will install all required dependencies.\n\n\nFor an example resource:\n\n```\nyo steroids:example:<exampleName>\n```\n\nOptions:\n__exampleName__: name of the example to generate.\n\nAvailable examples:\n* accelerometer -- Access the device\'s accelerometer.\n* animation -- Using native animations without moving to another document (iOS-only).\n* audio -- Play back audio files through Cordova\'s Media API.\n* compass -- Access the device\'s compass.\n* device -- Access the device properties.\n* drumMachine -- Demonstrate Steroids Audio API via a kickin\' drum machine.\n* geolocation -- Access the device\'s geolocation data.\n* modal -- Using the modal window.\n* notification -- Access native notifications.\n* preload -- Preload WebViews to have them available immediately.\n* storage -- Access Cordova\'s SQL Storage API.\n\nFor a tutorial:\n\n```\nyo steroids:tutorial:<tutorialName>\n```\n\nOptions:\n__tutorialName__: name of the tutorial to generate.\n\nAvailable tutorials:\n* begin -- The very basics of AppGyver Steroids, start here\n* steroids -- Basics of Steroids Native UI enhancements\n* controllers -- Basics of Controllers (requires the \'steroids\' tutorial to be generated first)\n\n## License\n\n[MIT License](http://en.wikipedia.org/wiki/MIT_License)\n',
+36 silly resolved     readmeFilename: 'README.md',
+36 silly resolved     _id: 'generator-steroids@0.3.3',
+36 silly resolved     _shasum: '73954c61059b55f4d0022b44da0b74c1ad9f85db',
+36 silly resolved     _from: 'generator-steroids@',
+36 silly resolved     _resolved: 'https://registry.npmjs.org/generator-steroids/-/generator-steroids-0.3.3.tgz' } ]
+37 info install generator-steroids@0.3.3 into /Users/danielpetkevich/Desktop/Guess
+38 info installOne generator-steroids@0.3.3
+39 info /Users/danielpetkevich/Desktop/Guess/node_modules/generator-steroids unbuild
+40 verbose tar unpack /Users/danielpetkevich/.npm/generator-steroids/0.3.3/package.tgz
+41 silly lockFile cf66f9f0--node-modules-generator-steroids tar:///Users/danielpetkevich/Desktop/Guess/node_modules/generator-steroids
+42 verbose lock tar:///Users/danielpetkevich/Desktop/Guess/node_modules/generator-steroids /Users/danielpetkevich/.npm/cf66f9f0--node-modules-generator-steroids.lock
+43 silly lockFile 5728ab98-rator-steroids-0-3-3-package-tgz tar:///Users/danielpetkevich/.npm/generator-steroids/0.3.3/package.tgz
+44 verbose lock tar:///Users/danielpetkevich/.npm/generator-steroids/0.3.3/package.tgz /Users/danielpetkevich/.npm/5728ab98-rator-steroids-0-3-3-package-tgz.lock
+45 silly gunzTarPerm modes [ '755', '644' ]
+46 silly gunzTarPerm extractEntry package.json
+47 silly gunzTarPerm extractEntry .npmignore
+48 silly gunzTarPerm extractEntry README.md
+49 silly gunzTarPerm extractEntry LICENSE
+50 silly gunzTarPerm extractEntry CHANGELOG.md
+51 silly gunzTarPerm extractEntry .editorconfig
+52 silly gunzTarPerm extractEntry .gitattributes
+53 silly gunzTarPerm extractEntry generators/app/index.js
+54 silly gunzTarPerm extractEntry generators/app/index.coffee
+55 silly gunzTarPerm extractEntry generators/app/templates/applications/default/package.json
+56 silly gunzTarPerm extractEntry generators/app/templates/applications/default/Gruntfile.js
+57 silly gunzTarPerm extractEntry generators/app/templates/applications/default/.bowerrc
+58 silly gunzTarPerm extractEntry generators/app/templates/applications/default/.cordova/README.md
+59 silly gunzTarPerm extractEntry generators/app/templates/applications/default/.cordova/config.json
+60 silly gunzTarPerm extractEntry generators/app/templates/applications/default/bower.json
+61 silly gunzTarPerm extractEntry generators/app/templates/applications/default/merges/README.md
+62 silly gunzTarPerm extractEntry generators/app/templates/applications/default/platforms/README.md
+63 silly gunzTarPerm extractEntry generators/app/templates/applications/default/plugins/README.md
+64 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/config.android.xml
+65 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/config.ios.xml
+66 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/config.tizen.xml
+67 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/config.xml
+68 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/icons/pill@2x.png
+69 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/icons/steroids.png
+70 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/icons/telescope@2x.png
+71 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/index.html
+72 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/javascripts/application.js
+73 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/javascripts/console.log.android.js
+74 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/javascripts/console.log.js
+75 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/javascripts/onerror.android.js
+76 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/javascripts/onerror.js
+77 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/loading.html
+78 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/stylesheets/application.css
+79 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/vendor/ionic/LICENSE
+80 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/vendor/ionic/css/ionic.css
+81 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/vendor/ionic/fonts/ionicons.eot
+82 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/vendor/ionic/fonts/ionicons.svg
+83 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/vendor/ionic/fonts/ionicons.ttf
+84 silly gunzTarPerm extractEntry generators/app/templates/applications/default/www/vendor/ionic/fonts/ionicons.woff
+85 silly gunzTarPerm extractEntry generators/app/templates/dotfiles/gitignore
+86 silly gunzTarPerm extractEntry generators/application-config/index.js
+87 silly gunzTarPerm extractEntry generators/application-config/index.coffee
+88 silly gunzTarPerm extractEntry generators/application-config/templates/application.coffee
+89 silly gunzTarPerm extractEntry generators/example/index.js
+90 silly gunzTarPerm extractEntry generators/example/geolocation/index.js
+91 silly gunzTarPerm extractEntry generators/example/geolocation/index.coffee
+92 silly gunzTarPerm extractEntry generators/example/geolocation/templates/geolocationExample.html
+93 silly gunzTarPerm extractEntry generators/example/audio/index.js
+94 silly gunzTarPerm extractEntry generators/example/audio/index.coffee
+95 silly gunzTarPerm extractEntry generators/example/audio/templates/audioExample.html
+96 silly gunzTarPerm extractEntry generators/example/audio/templates/rockGuitar.mp3
+97 silly gunzTarPerm extractEntry generators/example/compass/index.js
+98 silly gunzTarPerm extractEntry generators/example/compass/index.coffee
+99 silly gunzTarPerm extractEntry generators/example/compass/templates/compassExample.html
+100 silly gunzTarPerm extractEntry generators/example/device/index.js
+101 silly gunzTarPerm extractEntry generators/example/device/index.coffee
+102 silly gunzTarPerm extractEntry generators/example/device/templates/deviceExample.html
+103 silly gunzTarPerm extractEntry generators/example/drumMachine/index.js
+104 silly gunzTarPerm extractEntry generators/example/drumMachine/index.coffee
+105 silly gunzTarPerm extractEntry generators/example/drumMachine/templates/controller.js
+106 silly gunzTarPerm extractEntry generators/example/drumMachine/templates/clap.wav
+107 silly gunzTarPerm extractEntry generators/example/drumMachine/templates/hihat.wav
+108 silly gunzTarPerm extractEntry generators/example/drumMachine/templates/index.html
+109 silly gunzTarPerm extractEntry generators/example/drumMachine/templates/kick.wav
+110 silly gunzTarPerm extractEntry generators/example/drumMachine/templates/layout.html
+111 silly gunzTarPerm extractEntry generators/example/drumMachine/templates/perc.wav
+112 silly gunzTarPerm extractEntry generators/example/drumMachine/templates/perc2.wav
+113 silly gunzTarPerm extractEntry generators/example/drumMachine/templates/snare.wav
+114 silly gunzTarPerm extractEntry generators/example/animation/index.js
+115 silly gunzTarPerm extractEntry generators/example/animation/index.coffee
+116 silly gunzTarPerm extractEntry generators/example/animation/templates/controller.js
+117 silly gunzTarPerm extractEntry generators/example/animation/templates/index.android.html
+118 silly gunzTarPerm extractEntry generators/example/animation/templates/index.html
+119 silly gunzTarPerm extractEntry generators/example/animation/templates/layout.html
+120 silly gunzTarPerm extractEntry generators/example/index.coffee
+121 silly gunzTarPerm extractEntry generators/example/accelerometer/index.js
+122 silly gunzTarPerm extractEntry generators/example/accelerometer/index.coffee
+123 silly gunzTarPerm extractEntry generators/example/accelerometer/templates/accelerometerExample.html
+124 silly gunzTarPerm extractEntry generators/example/modal/index.js
+125 silly gunzTarPerm extractEntry generators/example/modal/index.coffee
+126 silly gunzTarPerm extractEntry generators/example/modal/templates/controller.js
+127 silly gunzTarPerm extractEntry generators/example/modal/templates/index.html
+128 silly gunzTarPerm extractEntry generators/example/modal/templates/layout.html
+129 silly gunzTarPerm extractEntry generators/example/modal/templates/show.html
+130 silly gunzTarPerm extractEntry generators/example/notification/index.js
+131 silly gunzTarPerm extractEntry generators/example/notification/index.coffee
+132 silly gunzTarPerm extractEntry generators/example/notification/templates/notificationExample.html
+133 silly gunzTarPerm extractEntry generators/example/preload/index.js
+134 silly gunzTarPerm extractEntry generators/example/preload/index.coffee
+135 silly gunzTarPerm extractEntry generators/example/preload/templates/controller.js
+136 silly gunzTarPerm extractEntry generators/example/preload/templates/index.html
+137 silly gunzTarPerm extractEntry generators/example/preload/templates/layout.html
+138 silly gunzTarPerm extractEntry generators/example/preload/templates/show.html
+139 silly gunzTarPerm extractEntry generators/example/storage/index.js
+140 silly gunzTarPerm extractEntry generators/example/storage/index.coffee
+141 silly gunzTarPerm extractEntry generators/example/storage/templates/storageExample.html
+142 silly gunzTarPerm extractEntry generators/ng-resource/index.js
+143 silly gunzTarPerm extractEntry generators/ng-resource/index.coffee
+144 silly gunzTarPerm extractEntry generators/ng-resource/templates/app/controllers/_resourceName.js
+145 silly gunzTarPerm extractEntry generators/ng-resource/templates/app/models/_resourceName.js
+146 silly gunzTarPerm extractEntry generators/ng-resource/templates/app/views/layouts/resourceName.html
+147 silly gunzTarPerm extractEntry generators/ng-resource/templates/app/views/resourceName/_index.html
+148 silly gunzTarPerm extractEntry generators/ng-resource/templates/app/views/resourceName/_show.html
+149 silly gunzTarPerm extractEntry generators/ng-resource/templates/www/data/_resourceName.json
+150 silly gunzTarPerm extractEntry generators/ng-resource/templates/www/vendor/angular-hammer/angular-hammer.js
+151 silly gunzTarPerm extractEntry generators/tutorial/index.js
+152 silly gunzTarPerm extractEntry generators/tutorial/begin/index.js
+153 silly gunzTarPerm extractEntry generators/tutorial/begin/index.coffee
+154 silly gunzTarPerm extractEntry generators/tutorial/begin/templates/tutorial.html
+155 silly gunzTarPerm extractEntry generators/tutorial/controllers/index.js
+156 silly gunzTarPerm extractEntry generators/tutorial/controllers/index.coffee
+157 silly gunzTarPerm extractEntry generators/tutorial/controllers/templates/application.js
+158 silly gunzTarPerm extractEntry generators/tutorial/controllers/templates/controller.js
+159 silly gunzTarPerm extractEntry generators/tutorial/controllers/templates/controllers-completed.html
+160 silly gunzTarPerm extractEntry generators/tutorial/controllers/templates/controllers.html
+161 silly gunzTarPerm extractEntry generators/tutorial/index.coffee
+162 silly gunzTarPerm extractEntry generators/tutorial/steroids/index.js
+163 silly gunzTarPerm extractEntry generators/tutorial/steroids/index.coffee
+164 silly gunzTarPerm extractEntry generators/tutorial/steroids/templates/application.coffee
+165 silly gunzTarPerm extractEntry generators/tutorial/steroids/templates/index.android.html
+166 silly gunzTarPerm extractEntry generators/tutorial/steroids/templates/index.html
+167 silly gunzTarPerm extractEntry generators/tutorial/steroids/templates/layout.html
+168 silly gunzTarPerm extractEntry generators/tutorial/steroids/templates/show.html
+169 silly gunzTarPerm extractEntry lib/BowerRenderer.js
+170 silly gunzTarPerm extractEntry lib/Bower.coffee
+171 silly gunzTarPerm extractEntry lib/sbawn.coffee
+172 silly gunzTarPerm extractEntry .travis.yml
+173 silly gunzTarPerm extractEntry publish-plz.sh
+174 silly gunzTarPerm extractEntry test/test-creation.js
+175 silly gunzTarPerm extractEntry test/test-load.js
+176 silly lockFile cf66f9f0--node-modules-generator-steroids tar:///Users/danielpetkevich/Desktop/Guess/node_modules/generator-steroids
+177 silly lockFile cf66f9f0--node-modules-generator-steroids tar:///Users/danielpetkevich/Desktop/Guess/node_modules/generator-steroids
+178 silly lockFile 5728ab98-rator-steroids-0-3-3-package-tgz tar:///Users/danielpetkevich/.npm/generator-steroids/0.3.3/package.tgz
+179 silly lockFile 5728ab98-rator-steroids-0-3-3-package-tgz tar:///Users/danielpetkevich/.npm/generator-steroids/0.3.3/package.tgz
+180 info preinstall generator-steroids@0.3.3
+181 verbose readDependencies using package.json deps
+182 verbose readDependencies using package.json deps
+183 verbose cache add [ 'chalk@0.3.0', null ]
+184 verbose cache add name=undefined spec="chalk@0.3.0" args=["chalk@0.3.0",null]
+185 verbose parsed url { protocol: null,
+185 verbose parsed url   slashes: null,
+185 verbose parsed url   auth: null,
+185 verbose parsed url   host: null,
+185 verbose parsed url   port: null,
+185 verbose parsed url   hostname: null,
+185 verbose parsed url   hash: null,
+185 verbose parsed url   search: null,
+185 verbose parsed url   query: null,
+185 verbose parsed url   pathname: 'chalk@0.3.0',
+185 verbose parsed url   path: 'chalk@0.3.0',
+185 verbose parsed url   href: 'chalk@0.3.0' }
+186 verbose cache add name="chalk" spec="0.3.0" args=["chalk","0.3.0"]
+187 verbose parsed url { protocol: null,
+187 verbose parsed url   slashes: null,
+187 verbose parsed url   auth: null,
+187 verbose parsed url   host: null,
+187 verbose parsed url   port: null,
+187 verbose parsed url   hostname: null,
+187 verbose parsed url   hash: null,
+187 verbose parsed url   search: null,
+187 verbose parsed url   query: null,
+187 verbose parsed url   pathname: '0.3.0',
+187 verbose parsed url   path: '0.3.0',
+187 verbose parsed url   href: '0.3.0' }
+188 verbose addNamed [ 'chalk', '0.3.0' ]
+189 verbose addNamed [ '0.3.0', '0.3.0' ]
+190 silly lockFile 33cac2c0-chalk-0-3-0 chalk@0.3.0
+191 verbose lock chalk@0.3.0 /Users/danielpetkevich/.npm/33cac2c0-chalk-0-3-0.lock
+192 verbose cache add [ 'yeoman-generator@0.13.4', null ]
+193 verbose cache add name=undefined spec="yeoman-generator@0.13.4" args=["yeoman-generator@0.13.4",null]
+194 verbose parsed url { protocol: null,
+194 verbose parsed url   slashes: null,
+194 verbose parsed url   auth: null,
+194 verbose parsed url   host: null,
+194 verbose parsed url   port: null,
+194 verbose parsed url   hostname: null,
+194 verbose parsed url   hash: null,
+194 verbose parsed url   search: null,
+194 verbose parsed url   query: null,
+194 verbose parsed url   pathname: 'yeoman-generator@0.13.4',
+194 verbose parsed url   path: 'yeoman-generator@0.13.4',
+194 verbose parsed url   href: 'yeoman-generator@0.13.4' }
+195 verbose cache add name="yeoman-generator" spec="0.13.4" args=["yeoman-generator","0.13.4"]
+196 verbose parsed url { protocol: null,
+196 verbose parsed url   slashes: null,
+196 verbose parsed url   auth: null,
+196 verbose parsed url   host: null,
+196 verbose parsed url   port: null,
+196 verbose parsed url   hostname: null,
+196 verbose parsed url   hash: null,
+196 verbose parsed url   search: null,
+196 verbose parsed url   query: null,
+196 verbose parsed url   pathname: '0.13.4',
+196 verbose parsed url   path: '0.13.4',
+196 verbose parsed url   href: '0.13.4' }
+197 verbose addNamed [ 'yeoman-generator', '0.13.4' ]
+198 verbose addNamed [ '0.13.4', '0.13.4' ]
+199 silly lockFile 3c1592da-yeoman-generator-0-13-4 yeoman-generator@0.13.4
+200 verbose lock yeoman-generator@0.13.4 /Users/danielpetkevich/.npm/3c1592da-yeoman-generator-0-13-4.lock
+201 verbose cache add [ 'coffee-script@1.6.3', null ]
+202 verbose cache add name=undefined spec="coffee-script@1.6.3" args=["coffee-script@1.6.3",null]
+203 verbose parsed url { protocol: null,
+203 verbose parsed url   slashes: null,
+203 verbose parsed url   auth: null,
+203 verbose parsed url   host: null,
+203 verbose parsed url   port: null,
+203 verbose parsed url   hostname: null,
+203 verbose parsed url   hash: null,
+203 verbose parsed url   search: null,
+203 verbose parsed url   query: null,
+203 verbose parsed url   pathname: 'coffee-script@1.6.3',
+203 verbose parsed url   path: 'coffee-script@1.6.3',
+203 verbose parsed url   href: 'coffee-script@1.6.3' }
+204 verbose cache add name="coffee-script" spec="1.6.3" args=["coffee-script","1.6.3"]
+205 verbose parsed url { protocol: null,
+205 verbose parsed url   slashes: null,
+205 verbose parsed url   auth: null,
+205 verbose parsed url   host: null,
+205 verbose parsed url   port: null,
+205 verbose parsed url   hostname: null,
+205 verbose parsed url   hash: null,
+205 verbose parsed url   search: null,
+205 verbose parsed url   query: null,
+205 verbose parsed url   pathname: '1.6.3',
+205 verbose parsed url   path: '1.6.3',
+205 verbose parsed url   href: '1.6.3' }
+206 verbose addNamed [ 'coffee-script', '1.6.3' ]
+207 verbose addNamed [ '1.6.3', '1.6.3' ]
+208 silly lockFile 15ab88ca-coffee-script-1-6-3 coffee-script@1.6.3
+209 verbose lock coffee-script@1.6.3 /Users/danielpetkevich/.npm/15ab88ca-coffee-script-1-6-3.lock
+210 verbose cache add [ 'bower@1.2.7', null ]
+211 verbose cache add name=undefined spec="bower@1.2.7" args=["bower@1.2.7",null]
+212 verbose parsed url { protocol: null,
+212 verbose parsed url   slashes: null,
+212 verbose parsed url   auth: null,
+212 verbose parsed url   host: null,
+212 verbose parsed url   port: null,
+212 verbose parsed url   hostname: null,
+212 verbose parsed url   hash: null,
+212 verbose parsed url   search: null,
+212 verbose parsed url   query: null,
+212 verbose parsed url   pathname: 'bower@1.2.7',
+212 verbose parsed url   path: 'bower@1.2.7',
+212 verbose parsed url   href: 'bower@1.2.7' }
+213 verbose cache add name="bower" spec="1.2.7" args=["bower","1.2.7"]
+214 verbose parsed url { protocol: null,
+214 verbose parsed url   slashes: null,
+214 verbose parsed url   auth: null,
+214 verbose parsed url   host: null,
+214 verbose parsed url   port: null,
+214 verbose parsed url   hostname: null,
+214 verbose parsed url   hash: null,
+214 verbose parsed url   search: null,
+214 verbose parsed url   query: null,
+214 verbose parsed url   pathname: '1.2.7',
+214 verbose parsed url   path: '1.2.7',
+214 verbose parsed url   href: '1.2.7' }
+215 verbose addNamed [ 'bower', '1.2.7' ]
+216 verbose addNamed [ '1.2.7', '1.2.7' ]
+217 silly lockFile d87c9af5-bower-1-2-7 bower@1.2.7
+218 verbose lock bower@1.2.7 /Users/danielpetkevich/.npm/d87c9af5-bower-1-2-7.lock
+219 verbose cache add [ 'dargs@0.1.0', null ]
+220 verbose cache add name=undefined spec="dargs@0.1.0" args=["dargs@0.1.0",null]
+221 verbose parsed url { protocol: null,
+221 verbose parsed url   slashes: null,
+221 verbose parsed url   auth: null,
+221 verbose parsed url   host: null,
+221 verbose parsed url   port: null,
+221 verbose parsed url   hostname: null,
+221 verbose parsed url   hash: null,
+221 verbose parsed url   search: null,
+221 verbose parsed url   query: null,
+221 verbose parsed url   pathname: 'dargs@0.1.0',
+221 verbose parsed url   path: 'dargs@0.1.0',
+221 verbose parsed url   href: 'dargs@0.1.0' }
+222 verbose cache add name="dargs" spec="0.1.0" args=["dargs","0.1.0"]
+223 verbose parsed url { protocol: null,
+223 verbose parsed url   slashes: null,
+223 verbose parsed url   auth: null,
+223 verbose parsed url   host: null,
+223 verbose parsed url   port: null,
+223 verbose parsed url   hostname: null,
+223 verbose parsed url   hash: null,
+223 verbose parsed url   search: null,
+223 verbose parsed url   query: null,
+223 verbose parsed url   pathname: '0.1.0',
+223 verbose parsed url   path: '0.1.0',
+223 verbose parsed url   href: '0.1.0' }
+224 verbose addNamed [ 'dargs', '0.1.0' ]
+225 verbose addNamed [ '0.1.0', '0.1.0' ]
+226 silly lockFile 23bfdef0-dargs-0-1-0 dargs@0.1.0
+227 verbose lock dargs@0.1.0 /Users/danielpetkevich/.npm/23bfdef0-dargs-0-1-0.lock
+228 verbose cache add [ 'cardinal@0.4.2', null ]
+229 verbose cache add name=undefined spec="cardinal@0.4.2" args=["cardinal@0.4.2",null]
+230 verbose parsed url { protocol: null,
+230 verbose parsed url   slashes: null,
+230 verbose parsed url   auth: null,
+230 verbose parsed url   host: null,
+230 verbose parsed url   port: null,
+230 verbose parsed url   hostname: null,
+230 verbose parsed url   hash: null,
+230 verbose parsed url   search: null,
+230 verbose parsed url   query: null,
+230 verbose parsed url   pathname: 'cardinal@0.4.2',
+230 verbose parsed url   path: 'cardinal@0.4.2',
+230 verbose parsed url   href: 'cardinal@0.4.2' }
+231 verbose cache add name="cardinal" spec="0.4.2" args=["cardinal","0.4.2"]
+232 verbose parsed url { protocol: null,
+232 verbose parsed url   slashes: null,
+232 verbose parsed url   auth: null,
+232 verbose parsed url   host: null,
+232 verbose parsed url   port: null,
+232 verbose parsed url   hostname: null,
+232 verbose parsed url   hash: null,
+232 verbose parsed url   search: null,
+232 verbose parsed url   query: null,
+232 verbose parsed url   pathname: '0.4.2',
+232 verbose parsed url   path: '0.4.2',
+232 verbose parsed url   href: '0.4.2' }
+233 verbose addNamed [ 'cardinal', '0.4.2' ]
+234 verbose addNamed [ '0.4.2', '0.4.2' ]
+235 silly lockFile 3f946b1b-cardinal-0-4-2 cardinal@0.4.2
+236 verbose lock cardinal@0.4.2 /Users/danielpetkevich/.npm/3f946b1b-cardinal-0-4-2.lock
+237 verbose cache add [ 'mout@0.8.0', null ]
+238 verbose cache add name=undefined spec="mout@0.8.0" args=["mout@0.8.0",null]
+239 verbose parsed url { protocol: null,
+239 verbose parsed url   slashes: null,
+239 verbose parsed url   auth: null,
+239 verbose parsed url   host: null,
+239 verbose parsed url   port: null,
+239 verbose parsed url   hostname: null,
+239 verbose parsed url   hash: null,
+239 verbose parsed url   search: null,
+239 verbose parsed url   query: null,
+239 verbose parsed url   pathname: 'mout@0.8.0',
+239 verbose parsed url   path: 'mout@0.8.0',
+239 verbose parsed url   href: 'mout@0.8.0' }
+240 verbose cache add name="mout" spec="0.8.0" args=["mout","0.8.0"]
+241 verbose parsed url { protocol: null,
+241 verbose parsed url   slashes: null,
+241 verbose parsed url   auth: null,
+241 verbose parsed url   host: null,
+241 verbose parsed url   port: null,
+241 verbose parsed url   hostname: null,
+241 verbose parsed url   hash: null,
+241 verbose parsed url   search: null,
+241 verbose parsed url   query: null,
+241 verbose parsed url   pathname: '0.8.0',
+241 verbose parsed url   path: '0.8.0',
+241 verbose parsed url   href: '0.8.0' }
+242 verbose addNamed [ 'mout', '0.8.0' ]
+243 verbose addNamed [ '0.8.0', '0.8.0' ]
+244 silly lockFile b584477e-mout-0-8-0 mout@0.8.0
+245 verbose lock mout@0.8.0 /Users/danielpetkevich/.npm/b584477e-mout-0-8-0.lock
+246 verbose cache add [ 'archy@0.0.2', null ]
+247 verbose cache add name=undefined spec="archy@0.0.2" args=["archy@0.0.2",null]
+248 verbose parsed url { protocol: null,
+248 verbose parsed url   slashes: null,
+248 verbose parsed url   auth: null,
+248 verbose parsed url   host: null,
+248 verbose parsed url   port: null,
+248 verbose parsed url   hostname: null,
+248 verbose parsed url   hash: null,
+248 verbose parsed url   search: null,
+248 verbose parsed url   query: null,
+248 verbose parsed url   pathname: 'archy@0.0.2',
+248 verbose parsed url   path: 'archy@0.0.2',
+248 verbose parsed url   href: 'archy@0.0.2' }
+249 verbose cache add name="archy" spec="0.0.2" args=["archy","0.0.2"]
+250 verbose parsed url { protocol: null,
+250 verbose parsed url   slashes: null,
+250 verbose parsed url   auth: null,
+250 verbose parsed url   host: null,
+250 verbose parsed url   port: null,
+250 verbose parsed url   hostname: null,
+250 verbose parsed url   hash: null,
+250 verbose parsed url   search: null,
+250 verbose parsed url   query: null,
+250 verbose parsed url   pathname: '0.0.2',
+250 verbose parsed url   path: '0.0.2',
+250 verbose parsed url   href: '0.0.2' }
+251 verbose addNamed [ 'archy', '0.0.2' ]
+252 verbose addNamed [ '0.0.2', '0.0.2' ]
+253 silly lockFile c97e9070-archy-0-0-2 archy@0.0.2
+254 verbose lock archy@0.0.2 /Users/danielpetkevich/.npm/c97e9070-archy-0-0-2.lock
+255 verbose cache add [ 'stringify-object@0.1.7', null ]
+256 verbose cache add name=undefined spec="stringify-object@0.1.7" args=["stringify-object@0.1.7",null]
+257 verbose parsed url { protocol: null,
+257 verbose parsed url   slashes: null,
+257 verbose parsed url   auth: null,
+257 verbose parsed url   host: null,
+257 verbose parsed url   port: null,
+257 verbose parsed url   hostname: null,
+257 verbose parsed url   hash: null,
+257 verbose parsed url   search: null,
+257 verbose parsed url   query: null,
+257 verbose parsed url   pathname: 'stringify-object@0.1.7',
+257 verbose parsed url   path: 'stringify-object@0.1.7',
+257 verbose parsed url   href: 'stringify-object@0.1.7' }
+258 verbose cache add name="stringify-object" spec="0.1.7" args=["stringify-object","0.1.7"]
+259 verbose parsed url { protocol: null,
+259 verbose parsed url   slashes: null,
+259 verbose parsed url   auth: null,
+259 verbose parsed url   host: null,
+259 verbose parsed url   port: null,
+259 verbose parsed url   hostname: null,
+259 verbose parsed url   hash: null,
+259 verbose parsed url   search: null,
+259 verbose parsed url   query: null,
+259 verbose parsed url   pathname: '0.1.7',
+259 verbose parsed url   path: '0.1.7',
+259 verbose parsed url   href: '0.1.7' }
+260 verbose addNamed [ 'stringify-object', '0.1.7' ]
+261 verbose addNamed [ '0.1.7', '0.1.7' ]
+262 silly lockFile ff567198-stringify-object-0-1-7 stringify-object@0.1.7
+263 verbose lock stringify-object@0.1.7 /Users/danielpetkevich/.npm/ff567198-stringify-object-0-1-7.lock
+264 verbose cache add [ 'q@1.0.0', null ]
+265 verbose cache add name=undefined spec="q@1.0.0" args=["q@1.0.0",null]
+266 verbose parsed url { protocol: null,
+266 verbose parsed url   slashes: null,
+266 verbose parsed url   auth: null,
+266 verbose parsed url   host: null,
+266 verbose parsed url   port: null,
+266 verbose parsed url   hostname: null,
+266 verbose parsed url   hash: null,
+266 verbose parsed url   search: null,
+266 verbose parsed url   query: null,
+266 verbose parsed url   pathname: 'q@1.0.0',
+266 verbose parsed url   path: 'q@1.0.0',
+266 verbose parsed url   href: 'q@1.0.0' }
+267 verbose cache add name="q" spec="1.0.0" args=["q","1.0.0"]
+268 verbose parsed url { protocol: null,
+268 verbose parsed url   slashes: null,
+268 verbose parsed url   auth: null,
+268 verbose parsed url   host: null,
+268 verbose parsed url   port: null,
+268 verbose parsed url   hostname: null,
+268 verbose parsed url   hash: null,
+268 verbose parsed url   search: null,
+268 verbose parsed url   query: null,
+268 verbose parsed url   pathname: '1.0.0',
+268 verbose parsed url   path: '1.0.0',
+268 verbose parsed url   href: '1.0.0' }
+269 verbose addNamed [ 'q', '1.0.0' ]
+270 verbose addNamed [ '1.0.0', '1.0.0' ]
+271 silly lockFile 4a267efb-q-1-0-0 q@1.0.0
+272 verbose lock q@1.0.0 /Users/danielpetkevich/.npm/4a267efb-q-1-0-0.lock
+273 verbose cache add [ 'inquirer@0.4.0', null ]
+274 verbose cache add name=undefined spec="inquirer@0.4.0" args=["inquirer@0.4.0",null]
+275 verbose parsed url { protocol: null,
+275 verbose parsed url   slashes: null,
+275 verbose parsed url   auth: null,
+275 verbose parsed url   host: null,
+275 verbose parsed url   port: null,
+275 verbose parsed url   hostname: null,
+275 verbose parsed url   hash: null,
+275 verbose parsed url   search: null,
+275 verbose parsed url   query: null,
+275 verbose parsed url   pathname: 'inquirer@0.4.0',
+275 verbose parsed url   path: 'inquirer@0.4.0',
+275 verbose parsed url   href: 'inquirer@0.4.0' }
+276 verbose cache add name="inquirer" spec="0.4.0" args=["inquirer","0.4.0"]
+277 verbose parsed url { protocol: null,
+277 verbose parsed url   slashes: null,
+277 verbose parsed url   auth: null,
+277 verbose parsed url   host: null,
+277 verbose parsed url   port: null,
+277 verbose parsed url   hostname: null,
+277 verbose parsed url   hash: null,
+277 verbose parsed url   search: null,
+277 verbose parsed url   query: null,
+277 verbose parsed url   pathname: '0.4.0',
+277 verbose parsed url   path: '0.4.0',
+277 verbose parsed url   href: '0.4.0' }
+278 verbose addNamed [ 'inquirer', '0.4.0' ]
+279 verbose addNamed [ '0.4.0', '0.4.0' ]
+280 silly lockFile 149ad4a7-inquirer-0-4-0 inquirer@0.4.0
+281 verbose lock inquirer@0.4.0 /Users/danielpetkevich/.npm/149ad4a7-inquirer-0-4-0.lock
+282 verbose url raw chalk
+283 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+284 verbose url resolved https://registry.npmjs.org/chalk
+285 info trying registry request attempt 1 at 23:23:35
+286 verbose etag "3LU5TYELX7WMNDEBW9E7XTIO1"
+287 http GET https://registry.npmjs.org/chalk
+288 verbose url raw coffee-script
+289 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+290 verbose url resolved https://registry.npmjs.org/coffee-script
+291 info trying registry request attempt 1 at 23:23:35
+292 verbose etag "9W8FID6CX24GZZXBA7HPUIHIB"
+293 http GET https://registry.npmjs.org/coffee-script
+294 verbose url raw bower
+295 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+296 verbose url resolved https://registry.npmjs.org/bower
+297 info trying registry request attempt 1 at 23:23:35
+298 verbose etag "64F4ZI7H5AKHMU1C6EI0978SI"
+299 http GET https://registry.npmjs.org/bower
+300 verbose url raw mout
+301 verbose url resolving [ 'https://registry.npmjs.org/', './mout' ]
+302 verbose url resolved https://registry.npmjs.org/mout
+303 info trying registry request attempt 1 at 23:23:35
+304 verbose etag "DAV4K4JPL3MIW538VHXQIFVFI"
+305 http GET https://registry.npmjs.org/mout
+306 verbose url raw archy
+307 verbose url resolving [ 'https://registry.npmjs.org/', './archy' ]
+308 verbose url resolved https://registry.npmjs.org/archy
+309 info trying registry request attempt 1 at 23:23:35
+310 verbose etag "1896SOVEFOO0AU9N6HHSVIPJK"
+311 http GET https://registry.npmjs.org/archy
+312 verbose url raw dargs
+313 verbose url resolving [ 'https://registry.npmjs.org/', './dargs' ]
+314 verbose url resolved https://registry.npmjs.org/dargs
+315 info trying registry request attempt 1 at 23:23:35
+316 verbose etag "7ZJF1XNTQ8L0RFURYW8QTLXEB"
+317 http GET https://registry.npmjs.org/dargs
+318 verbose url raw yeoman-generator
+319 verbose url resolving [ 'https://registry.npmjs.org/', './yeoman-generator' ]
+320 verbose url resolved https://registry.npmjs.org/yeoman-generator
+321 info trying registry request attempt 1 at 23:23:35
+322 verbose etag "DW37MRKWL8C43C09C6YI4DET"
+323 http GET https://registry.npmjs.org/yeoman-generator
+324 verbose url raw cardinal
+325 verbose url resolving [ 'https://registry.npmjs.org/', './cardinal' ]
+326 verbose url resolved https://registry.npmjs.org/cardinal
+327 info trying registry request attempt 1 at 23:23:35
+328 verbose etag "2U37I1LUMOQHSXJXTWPF7KSGU"
+329 http GET https://registry.npmjs.org/cardinal
+330 verbose url raw stringify-object
+331 verbose url resolving [ 'https://registry.npmjs.org/', './stringify-object' ]
+332 verbose url resolved https://registry.npmjs.org/stringify-object
+333 info trying registry request attempt 1 at 23:23:35
+334 verbose etag "8ERZSV3JQWA4O1EG656JF8UYY"
+335 http GET https://registry.npmjs.org/stringify-object
+336 verbose url raw inquirer
+337 verbose url resolving [ 'https://registry.npmjs.org/', './inquirer' ]
+338 verbose url resolved https://registry.npmjs.org/inquirer
+339 info trying registry request attempt 1 at 23:23:35
+340 verbose etag "CXV9VW02Z41Y1553PVZX7T5VA"
+341 http GET https://registry.npmjs.org/inquirer
+342 verbose url raw q
+343 verbose url resolving [ 'https://registry.npmjs.org/', './q' ]
+344 verbose url resolved https://registry.npmjs.org/q
+345 info trying registry request attempt 1 at 23:23:35
+346 verbose etag "7ER68O2U62XPSKS4R8ZXY964V"
+347 http GET https://registry.npmjs.org/q
+348 http 304 https://registry.npmjs.org/chalk
+349 silly registry.get cb [ 304,
+349 silly registry.get   { date: 'Wed, 11 Jun 2014 06:23:35 GMT',
+349 silly registry.get     server: 'Apache',
+349 silly registry.get     via: '1.1 varnish',
+349 silly registry.get     'last-modified': 'Wed, 11 Jun 2014 06:23:35 GMT',
+349 silly registry.get     'cache-control': 'max-age=1',
+349 silly registry.get     etag: '"3LU5TYELX7WMNDEBW9E7XTIO1"',
+349 silly registry.get     'x-served-by': 'cache-lax1423-LAX',
+349 silly registry.get     'x-cache': 'HIT',
+349 silly registry.get     'x-cache-hits': '1',
+349 silly registry.get     'x-timer': 'S1402467815.246503,VS0,VE34',
+349 silly registry.get     vary: 'Accept',
+349 silly registry.get     'content-length': '0',
+349 silly registry.get     'keep-alive': 'timeout=10, max=50',
+349 silly registry.get     connection: 'Keep-Alive' } ]
+350 verbose etag chalk from cache
+351 http 304 https://registry.npmjs.org/coffee-script
+352 silly registry.get cb [ 304,
+352 silly registry.get   { date: 'Wed, 11 Jun 2014 06:23:35 GMT',
+352 silly registry.get     server: 'Apache',
+352 silly registry.get     via: '1.1 varnish',
+352 silly registry.get     'last-modified': 'Wed, 11 Jun 2014 06:23:35 GMT',
+352 silly registry.get     'cache-control': 'max-age=1',
+352 silly registry.get     etag: '"9W8FID6CX24GZZXBA7HPUIHIB"',
+352 silly registry.get     'x-served-by': 'cache-lax1421-LAX',
+352 silly registry.get     'x-cache': 'HIT',
+352 silly registry.get     'x-cache-hits': '1',
+352 silly registry.get     'x-timer': 'S1402467815.268808,VS0,VE37',
+352 silly registry.get     vary: 'Accept',
+352 silly registry.get     'content-length': '0',
+352 silly registry.get     'keep-alive': 'timeout=10, max=50',
+352 silly registry.get     connection: 'Keep-Alive' } ]
+353 verbose etag coffee-script from cache
+354 http 304 https://registry.npmjs.org/archy
+355 silly registry.get cb [ 304,
+355 silly registry.get   { date: 'Wed, 11 Jun 2014 06:23:35 GMT',
+355 silly registry.get     server: 'Apache',
+355 silly registry.get     via: '1.1 varnish',
+355 silly registry.get     'last-modified': 'Wed, 11 Jun 2014 06:23:35 GMT',
+355 silly registry.get     'cache-control': 'max-age=1',
+355 silly registry.get     etag: '"1896SOVEFOO0AU9N6HHSVIPJK"',
+355 silly registry.get     'x-served-by': 'cache-lax1427-LAX',
+355 silly registry.get     'x-cache': 'HIT',
+355 silly registry.get     'x-cache-hits': '1',
+355 silly registry.get     'x-timer': 'S1402467815.276676,VS0,VE42',
+355 silly registry.get     vary: 'Accept',
+355 silly registry.get     'content-length': '0',
+355 silly registry.get     'keep-alive': 'timeout=10, max=50',
+355 silly registry.get     connection: 'Keep-Alive' } ]
+356 verbose etag archy from cache
+357 http 304 https://registry.npmjs.org/dargs
+358 silly registry.get cb [ 304,
+358 silly registry.get   { date: 'Wed, 11 Jun 2014 06:23:35 GMT',
+358 silly registry.get     server: 'Apache',
+358 silly registry.get     via: '1.1 varnish',
+358 silly registry.get     'last-modified': 'Wed, 11 Jun 2014 06:23:35 GMT',
+358 silly registry.get     'cache-control': 'max-age=1',
+358 silly registry.get     etag: '"7ZJF1XNTQ8L0RFURYW8QTLXEB"',
+358 silly registry.get     'x-served-by': 'cache-lax1423-LAX',
+358 silly registry.get     'x-cache': 'HIT',
+358 silly registry.get     'x-cache-hits': '1',
+358 silly registry.get     'x-timer': 'S1402467815.308384,VS0,VE37',
+358 silly registry.get     vary: 'Accept',
+358 silly registry.get     'content-length': '0',
+358 silly registry.get     'keep-alive': 'timeout=10, max=49',
+358 silly registry.get     connection: 'Keep-Alive' } ]
+359 verbose etag dargs from cache
+360 http 200 https://registry.npmjs.org/bower
+361 silly registry.get cb [ 200,
+361 silly registry.get   { date: 'Wed, 11 Jun 2014 06:23:35 GMT',
+361 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+361 silly registry.get     etag: '"D5FLDGYA3CY3WMFNTCY9U9DWD"',
+361 silly registry.get     'content-type': 'application/json',
+361 silly registry.get     via: '1.1 varnish',
+361 silly registry.get     'cache-control': 'max-age=1',
+361 silly registry.get     'content-length': '99999',
+361 silly registry.get     'accept-ranges': 'bytes',
+361 silly registry.get     age: '103',
+361 silly registry.get     'x-served-by': 'cache-sv60-SJC3, cache-lax1422-LAX',
+361 silly registry.get     'x-cache': 'HIT, HIT',
+361 silly registry.get     'x-cache-hits': '1, 1',
+361 silly registry.get     'x-timer': 'S1402467815.272461,VS0,VE36',
+361 silly registry.get     vary: 'Accept',
+361 silly registry.get     'keep-alive': 'timeout=10, max=50',
+361 silly registry.get     connection: 'Keep-Alive' } ]
+362 http 304 https://registry.npmjs.org/yeoman-generator
+363 silly registry.get cb [ 304,
+363 silly registry.get   { date: 'Wed, 11 Jun 2014 06:23:35 GMT',
+363 silly registry.get     server: 'Apache',
+363 silly registry.get     via: '1.1 varnish',
+363 silly registry.get     'last-modified': 'Wed, 11 Jun 2014 06:23:35 GMT',
+363 silly registry.get     'cache-control': 'max-age=1',
+363 silly registry.get     etag: '"DW37MRKWL8C43C09C6YI4DET"',
+363 silly registry.get     'x-served-by': 'cache-lax1421-LAX',
+363 silly registry.get     'x-cache': 'HIT',
+363 silly registry.get     'x-cache-hits': '1',
+363 silly registry.get     'x-timer': 'S1402467815.332840,VS0,VE72',
+363 silly registry.get     vary: 'Accept',
+363 silly registry.get     'content-length': '0',
+363 silly registry.get     'keep-alive': 'timeout=10, max=49',
+363 silly registry.get     connection: 'Keep-Alive' } ]
+364 verbose etag yeoman-generator from cache
+365 http 304 https://registry.npmjs.org/stringify-object
+366 silly registry.get cb [ 304,
+366 silly registry.get   { date: 'Wed, 11 Jun 2014 06:23:35 GMT',
+366 silly registry.get     server: 'Apache',
+366 silly registry.get     via: '1.1 varnish',
+366 silly registry.get     'last-modified': 'Wed, 11 Jun 2014 06:23:35 GMT',
+366 silly registry.get     'cache-control': 'max-age=1',
+366 silly registry.get     etag: '"8ERZSV3JQWA4O1EG656JF8UYY"',
+366 silly registry.get     'x-served-by': 'cache-lax1423-LAX',
+366 silly registry.get     'x-cache': 'HIT',
+366 silly registry.get     'x-cache-hits': '1',
+366 silly registry.get     'x-timer': 'S1402467815.380568,VS0,VE34',
+366 silly registry.get     vary: 'Accept',
+366 silly registry.get     'content-length': '0',
+366 silly registry.get     'keep-alive': 'timeout=10, max=48',
+366 silly registry.get     connection: 'Keep-Alive' } ]
+367 verbose etag stringify-object from cache
+368 http 304 https://registry.npmjs.org/cardinal
+369 silly registry.get cb [ 304,
+369 silly registry.get   { date: 'Wed, 11 Jun 2014 06:23:35 GMT',
+369 silly registry.get     server: 'Apache',
+369 silly registry.get     via: '1.1 varnish',
+369 silly registry.get     'last-modified': 'Wed, 11 Jun 2014 06:23:35 GMT',
+369 silly registry.get     'cache-control': 'max-age=1',
+369 silly registry.get     etag: '"2U37I1LUMOQHSXJXTWPF7KSGU"',
+369 silly registry.get     'x-served-by': 'cache-lax1427-LAX',
+369 silly registry.get     'x-cache': 'HIT',
+369 silly registry.get     'x-cache-hits': '1',
+369 silly registry.get     'x-timer': 'S1402467815.344444,VS0,VE172',
+369 silly registry.get     vary: 'Accept',
+369 silly registry.get     'content-length': '0',
+369 silly registry.get     'keep-alive': 'timeout=10, max=49',
+369 silly registry.get     connection: 'Keep-Alive' } ]
+370 verbose etag cardinal from cache
+371 http 200 https://registry.npmjs.org/inquirer
+372 silly registry.get cb [ 200,
+372 silly registry.get   { date: 'Wed, 11 Jun 2014 06:23:35 GMT',
+372 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+372 silly registry.get     etag: '"2ZW0AM61NMN0Y6UX4ZIOKCEKD"',
+372 silly registry.get     'content-type': 'application/json',
+372 silly registry.get     'cache-control': 'max-age=1',
+372 silly registry.get     'content-length': '44105',
+372 silly registry.get     'accept-ranges': 'bytes',
+372 silly registry.get     via: '1.1 varnish',
+372 silly registry.get     age: '474',
+372 silly registry.get     'x-served-by': 'cache-lax1422-LAX',
+372 silly registry.get     'x-cache': 'HIT',
+372 silly registry.get     'x-cache-hits': '1',
+372 silly registry.get     'x-timer': 'S1402467815.445871,VS0,VE52',
+372 silly registry.get     vary: 'Accept',
+372 silly registry.get     'keep-alive': 'timeout=10, max=49',
+372 silly registry.get     connection: 'Keep-Alive' } ]
+373 http 304 https://registry.npmjs.org/mout
+374 silly registry.get cb [ 304,
+374 silly registry.get   { date: 'Wed, 11 Jun 2014 06:23:35 GMT',
+374 silly registry.get     server: 'Apache',
+374 silly registry.get     via: '1.1 varnish',
+374 silly registry.get     'last-modified': 'Wed, 11 Jun 2014 06:23:35 GMT',
+374 silly registry.get     'cache-control': 'max-age=1',
+374 silly registry.get     etag: '"DAV4K4JPL3MIW538VHXQIFVFI"',
+374 silly registry.get     'x-served-by': 'cache-lax1426-LAX',
+374 silly registry.get     'x-cache': 'HIT',
+374 silly registry.get     'x-cache-hits': '1',
+374 silly registry.get     'x-timer': 'S1402467815.276730,VS0,VE73',
+374 silly registry.get     vary: 'Accept',
+374 silly registry.get     'content-length': '0',
+374 silly registry.get     'keep-alive': 'timeout=10, max=50',
+374 silly registry.get     connection: 'Keep-Alive' } ]
+375 verbose etag mout from cache
+376 http 200 https://registry.npmjs.org/q
+377 silly registry.get cb [ 200,
+377 silly registry.get   { date: 'Wed, 11 Jun 2014 06:23:35 GMT',
+377 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+377 silly registry.get     etag: '"98QDSMYYQHYN5093XC4RB0TLV"',
+377 silly registry.get     'content-type': 'application/json',
+377 silly registry.get     'cache-control': 'max-age=1',
+377 silly registry.get     'content-length': '127165',
+377 silly registry.get     'accept-ranges': 'bytes',
+377 silly registry.get     via: '1.1 varnish',
+377 silly registry.get     age: '139',
+377 silly registry.get     'x-served-by': 'cache-lax1421-LAX',
+377 silly registry.get     'x-cache': 'HIT',
+377 silly registry.get     'x-cache-hits': '1',
+377 silly registry.get     'x-timer': 'S1402467815.452930,VS0,VE36',
+377 silly registry.get     vary: 'Accept',
+377 silly registry.get     'keep-alive': 'timeout=10, max=48',
+377 silly registry.get     connection: 'Keep-Alive' } ]
+378 silly lockFile 33cac2c0-chalk-0-3-0 chalk@0.3.0
+379 silly lockFile 33cac2c0-chalk-0-3-0 chalk@0.3.0
+380 silly lockFile 1308ca41--npmjs-org-bower-bower-1-2-7-tgz https://registry.npmjs.org/bower/-/bower-1.2.7.tgz
+381 verbose lock https://registry.npmjs.org/bower/-/bower-1.2.7.tgz /Users/danielpetkevich/.npm/1308ca41--npmjs-org-bower-bower-1-2-7-tgz.lock
+382 silly lockFile 89a0f4a9--org-inquirer-inquirer-0-4-0-tgz https://registry.npmjs.org/inquirer/-/inquirer-0.4.0.tgz
+383 verbose lock https://registry.npmjs.org/inquirer/-/inquirer-0.4.0.tgz /Users/danielpetkevich/.npm/89a0f4a9--org-inquirer-inquirer-0-4-0-tgz.lock
+384 silly lockFile 79ddd665-registry-npmjs-org-q-q-1-0-0-tgz https://registry.npmjs.org/q/-/q-1.0.0.tgz
+385 verbose lock https://registry.npmjs.org/q/-/q-1.0.0.tgz /Users/danielpetkevich/.npm/79ddd665-registry-npmjs-org-q-q-1-0-0-tgz.lock
+386 verbose addRemoteTarball [ 'https://registry.npmjs.org/bower/-/bower-1.2.7.tgz',
+386 verbose addRemoteTarball   '5b0505c8192bd61a752a7cf8b718d1b3054cd554' ]
+387 silly lockFile 15ab88ca-coffee-script-1-6-3 coffee-script@1.6.3
+388 silly lockFile 15ab88ca-coffee-script-1-6-3 coffee-script@1.6.3
+389 verbose addRemoteTarball [ 'https://registry.npmjs.org/inquirer/-/inquirer-0.4.0.tgz',
+389 verbose addRemoteTarball   '62782d60c8a71d6328d8b4e9a5a71933cfda8f33' ]
+390 verbose addRemoteTarball [ 'https://registry.npmjs.org/q/-/q-1.0.0.tgz',
+390 verbose addRemoteTarball   'dc1f92c4587be54f7853b29dc28e6d243a88498d' ]
+391 silly lockFile c97e9070-archy-0-0-2 archy@0.0.2
+392 silly lockFile c97e9070-archy-0-0-2 archy@0.0.2
+393 silly lockFile 3c1592da-yeoman-generator-0-13-4 yeoman-generator@0.13.4
+394 silly lockFile 3c1592da-yeoman-generator-0-13-4 yeoman-generator@0.13.4
+395 info retry fetch attempt 1 at 23:23:35
+396 verbose fetch to= /var/folders/j5/bpx59bd95_qcfxb3cjxzyx9m0000gn/T/npm-14497-7tF3YhXD/1402467815707-0.6963265594094992/tmp.tgz
+397 silly lockFile 23bfdef0-dargs-0-1-0 dargs@0.1.0
+398 silly lockFile 23bfdef0-dargs-0-1-0 dargs@0.1.0
+399 info retry fetch attempt 1 at 23:23:35
+400 verbose fetch to= /var/folders/j5/bpx59bd95_qcfxb3cjxzyx9m0000gn/T/npm-14497-7tF3YhXD/1402467815708-0.8727499456144869/tmp.tgz
+401 info retry fetch attempt 1 at 23:23:35
+402 verbose fetch to= /var/folders/j5/bpx59bd95_qcfxb3cjxzyx9m0000gn/T/npm-14497-7tF3YhXD/1402467815796-0.007648281054571271/tmp.tgz
+403 http GET https://registry.npmjs.org/bower/-/bower-1.2.7.tgz
+404 http GET https://registry.npmjs.org/inquirer/-/inquirer-0.4.0.tgz
+405 http GET https://registry.npmjs.org/q/-/q-1.0.0.tgz
+406 silly lockFile 3f946b1b-cardinal-0-4-2 cardinal@0.4.2
+407 silly lockFile 3f946b1b-cardinal-0-4-2 cardinal@0.4.2
+408 silly lockFile b584477e-mout-0-8-0 mout@0.8.0
+409 silly lockFile b584477e-mout-0-8-0 mout@0.8.0
+410 silly lockFile ff567198-stringify-object-0-1-7 stringify-object@0.1.7
+411 silly lockFile ff567198-stringify-object-0-1-7 stringify-object@0.1.7
+412 http 200 https://registry.npmjs.org/inquirer/-/inquirer-0.4.0.tgz
+413 http 200 https://registry.npmjs.org/bower/-/bower-1.2.7.tgz
+414 http 200 https://registry.npmjs.org/q/-/q-1.0.0.tgz
+415 verbose tar unpack /var/folders/j5/bpx59bd95_qcfxb3cjxzyx9m0000gn/T/npm-14497-7tF3YhXD/1402467815708-0.8727499456144869/tmp.tgz
+416 silly lockFile 4c975aa5-evich-npm-inquirer-0-4-0-package tar:///Users/danielpetkevich/.npm/inquirer/0.4.0/package
+417 verbose lock tar:///Users/danielpetkevich/.npm/inquirer/0.4.0/package /Users/danielpetkevich/.npm/4c975aa5-evich-npm-inquirer-0-4-0-package.lock
+418 silly lockFile e5f3ddc5-15708-0-8727499456144869-tmp-tgz tar:///var/folders/j5/bpx59bd95_qcfxb3cjxzyx9m0000gn/T/npm-14497-7tF3YhXD/1402467815708-0.8727499456144869/tmp.tgz
+419 verbose lock tar:///var/folders/j5/bpx59bd95_qcfxb3cjxzyx9m0000gn/T/npm-14497-7tF3YhXD/1402467815708-0.8727499456144869/tmp.tgz /Users/danielpetkevich/.npm/e5f3ddc5-15708-0-8727499456144869-tmp-tgz.lock
+420 verbose tar unpack /var/folders/j5/bpx59bd95_qcfxb3cjxzyx9m0000gn/T/npm-14497-7tF3YhXD/1402467815796-0.007648281054571271/tmp.tgz
+421 silly lockFile 2c00befc-ielpetkevich-npm-q-1-0-0-package tar:///Users/danielpetkevich/.npm/q/1.0.0/package
+422 verbose lock tar:///Users/danielpetkevich/.npm/q/1.0.0/package /Users/danielpetkevich/.npm/2c00befc-ielpetkevich-npm-q-1-0-0-package.lock
+423 silly lockFile 08a7be35-796-0-007648281054571271-tmp-tgz tar:///var/folders/j5/bpx59bd95_qcfxb3cjxzyx9m0000gn/T/npm-14497-7tF3YhXD/1402467815796-0.007648281054571271/tmp.tgz
+424 verbose lock tar:///var/folders/j5/bpx59bd95_qcfxb3cjxzyx9m0000gn/T/npm-14497-7tF3YhXD/1402467815796-0.007648281054571271/tmp.tgz /Users/danielpetkevich/.npm/08a7be35-796-0-007648281054571271-tmp-tgz.lock
+425 silly gunzTarPerm modes [ '755', '644' ]
+426 verbose tar unpack /var/folders/j5/bpx59bd95_qcfxb3cjxzyx9m0000gn/T/npm-14497-7tF3YhXD/1402467815707-0.6963265594094992/tmp.tgz
+427 silly lockFile 1c0d3884-etkevich-npm-bower-1-2-7-package tar:///Users/danielpetkevich/.npm/bower/1.2.7/package
+428 verbose lock tar:///Users/danielpetkevich/.npm/bower/1.2.7/package /Users/danielpetkevich/.npm/1c0d3884-etkevich-npm-bower-1-2-7-package.lock
+429 silly lockFile 99f119c9-15707-0-6963265594094992-tmp-tgz tar:///var/folders/j5/bpx59bd95_qcfxb3cjxzyx9m0000gn/T/npm-14497-7tF3YhXD/1402467815707-0.6963265594094992/tmp.tgz
+430 verbose lock tar:///var/folders/j5/bpx59bd95_qcfxb3cjxzyx9m0000gn/T/npm-14497-7tF3YhXD/1402467815707-0.6963265594094992/tmp.tgz /Users/danielpetkevich/.npm/99f119c9-15707-0-6963265594094992-tmp-tgz.lock
+431 silly gunzTarPerm extractEntry package.json
+432 silly gunzTarPerm extractEntry .npmignore
+433 silly gunzTarPerm extractEntry README.md
+434 silly gunzTarPerm modes [ '755', '644' ]
+435 silly gunzTarPerm extractEntry LICENSE-MIT
+436 silly gunzTarPerm extractEntry lib/inquirer.js
+437 silly gunzTarPerm extractEntry package.json
+438 silly gunzTarPerm extractEntry README.md
+439 silly gunzTarPerm extractEntry LICENSE
+440 silly gunzTarPerm extractEntry q.js
+441 silly gunzTarPerm extractEntry queue.js
+442 silly gunzTarPerm extractEntry CONTRIBUTING.md
+443 silly gunzTarPerm extractEntry benchmark/compare-with-callbacks.js
+444 silly gunzTarPerm extractEntry benchmark/scenarios.js
+445 silly gunzTarPerm extractEntry lib/objects/choice.js
+446 silly gunzTarPerm modes [ '755', '644' ]
+447 silly gunzTarPerm extractEntry package.json
+448 silly gunzTarPerm extractEntry .npmignore
+449 silly gunzTarPerm extractEntry README.md
+450 silly gunzTarPerm extractEntry LICENSE
+451 silly gunzTarPerm extractEntry Gruntfile.js
+452 silly gunzTarPerm extractEntry lib/objects/choices.js
+453 silly gunzTarPerm extractEntry lib/objects/separator.js
+454 silly gunzTarPerm extractEntry CONTRIBUTING.md
+455 silly gunzTarPerm extractEntry .editorconfig
+456 silly gunzTarPerm extractEntry lib/prompts/base.js
+457 silly gunzTarPerm extractEntry lib/prompts/checkbox.js
+458 silly gunzTarPerm extractEntry lib/prompts/confirm.js
+459 silly gunzTarPerm extractEntry lib/prompts/expand.js
+460 silly gunzTarPerm extractEntry lib/prompts/input.js
+461 silly gunzTarPerm extractEntry lib/prompts/list.js
+462 silly gunzTarPerm extractEntry .jshintrc
+463 silly gunzTarPerm extractEntry .travis.yml
+464 silly gunzTarPerm extractEntry bin/bower
+465 silly gunzTarPerm extractEntry lib/config.js
+466 silly gunzTarPerm extractEntry lib/prompts/password.js
+467 silly gunzTarPerm extractEntry lib/prompts/rawlist.js
+468 silly gunzTarPerm extractEntry lib/ui/baseUI.js
+469 silly gunzTarPerm extractEntry lib/ui/bottom-bar.js
+470 silly gunzTarPerm extractEntry lib/index.js
+471 silly gunzTarPerm extractEntry lib/commands/update.js
+472 silly gunzTarPerm extractEntry lib/ui/prompt.js
+473 silly gunzTarPerm extractEntry lib/utils/readline.js
+474 silly gunzTarPerm extractEntry lib/commands/index.js
+475 silly gunzTarPerm extractEntry lib/commands/info.js
+476 silly gunzTarPerm extractEntry lib/commands/init.js
+477 silly gunzTarPerm extractEntry lib/commands/install.js
+478 silly gunzTarPerm extractEntry lib/utils/tty.js
+479 silly gunzTarPerm extractEntry lib/utils/utils.js
+480 silly gunzTarPerm extractEntry lib/commands/home.js
+481 silly gunzTarPerm extractEntry lib/commands/list.js
+482 silly gunzTarPerm extractEntry lib/commands/lookup.js
+483 silly gunzTarPerm extractEntry lib/commands/prune.js
+484 silly gunzTarPerm extractEntry lib/commands/register.js
+485 silly gunzTarPerm extractEntry lib/commands/search.js
+486 silly gunzTarPerm extractEntry lib/commands/help.js
+487 silly gunzTarPerm extractEntry lib/commands/uninstall.js
+488 silly gunzTarPerm extractEntry lib/commands/completion.js
+489 silly gunzTarPerm extractEntry lib/commands/link.js
+490 silly gunzTarPerm extractEntry lib/commands/cache/clean.js
+491 silly gunzTarPerm extractEntry lib/commands/cache/index.js
+492 silly gunzTarPerm extractEntry lib/commands/cache/list.js
+493 silly gunzTarPerm extractEntry lib/core/Manager.js
+494 silly gunzTarPerm extractEntry lib/core/PackageRepository.js
+495 silly gunzTarPerm extractEntry lib/core/Project.js
+496 silly gunzTarPerm extractEntry lib/core/ResolveCache.js
+497 silly gunzTarPerm extractEntry lib/core/resolverFactory.js
+498 silly gunzTarPerm extractEntry lib/core/resolvers/FsResolver.js
+499 silly gunzTarPerm extractEntry lib/core/resolvers/GitFsResolver.js
+500 silly lockFile 2c00befc-ielpetkevich-npm-q-1-0-0-package tar:///Users/danielpetkevich/.npm/q/1.0.0/package
+501 silly lockFile 2c00befc-ielpetkevich-npm-q-1-0-0-package tar:///Users/danielpetkevich/.npm/q/1.0.0/package
+502 silly lockFile 08a7be35-796-0-007648281054571271-tmp-tgz tar:///var/folders/j5/bpx59bd95_qcfxb3cjxzyx9m0000gn/T/npm-14497-7tF3YhXD/1402467815796-0.007648281054571271/tmp.tgz
+503 silly lockFile 08a7be35-796-0-007648281054571271-tmp-tgz tar:///var/folders/j5/bpx59bd95_qcfxb3cjxzyx9m0000gn/T/npm-14497-7tF3YhXD/1402467815796-0.007648281054571271/tmp.tgz
+504 silly lockFile 79ddd665-registry-npmjs-org-q-q-1-0-0-tgz https://registry.npmjs.org/q/-/q-1.0.0.tgz
+505 silly lockFile 79ddd665-registry-npmjs-org-q-q-1-0-0-tgz https://registry.npmjs.org/q/-/q-1.0.0.tgz
+506 silly lockFile 4a267efb-q-1-0-0 q@1.0.0
+507 silly lockFile 4a267efb-q-1-0-0 q@1.0.0
+508 verbose about to build /Users/danielpetkevich/Desktop/Guess/node_modules/generator-steroids
+509 info /Users/danielpetkevich/Desktop/Guess/node_modules/generator-steroids unbuild
+510 info preuninstall generator-steroids@0.3.3
+511 info uninstall generator-steroids@0.3.3
+512 silly gunzTarPerm extractEntry lib/core/resolvers/GitHubResolver.js
+513 silly gunzTarPerm extractEntry lib/core/resolvers/GitRemoteResolver.js
+514 verbose true,/Users/danielpetkevich/Desktop/Guess/node_modules,/Users/danielpetkevich/Desktop/Guess/node_modules unbuild generator-steroids@0.3.3
+515 info postuninstall generator-steroids@0.3.3
+516 silly gunzTarPerm extractEntry lib/core/resolvers/GitResolver.js
+517 silly gunzTarPerm extractEntry lib/core/resolvers/Resolver.js
+518 silly gunzTarPerm extractEntry lib/core/resolvers/UrlResolver.js
+519 silly gunzTarPerm extractEntry lib/core/resolvers/index.js
+520 silly lockFile 4c975aa5-evich-npm-inquirer-0-4-0-package tar:///Users/danielpetkevich/.npm/inquirer/0.4.0/package
+521 silly lockFile 4c975aa5-evich-npm-inquirer-0-4-0-package tar:///Users/danielpetkevich/.npm/inquirer/0.4.0/package
+522 silly lockFile e5f3ddc5-15708-0-8727499456144869-tmp-tgz tar:///var/folders/j5/bpx59bd95_qcfxb3cjxzyx9m0000gn/T/npm-14497-7tF3YhXD/1402467815708-0.8727499456144869/tmp.tgz
+523 silly lockFile e5f3ddc5-15708-0-8727499456144869-tmp-tgz tar:///var/folders/j5/bpx59bd95_qcfxb3cjxzyx9m0000gn/T/npm-14497-7tF3YhXD/1402467815708-0.8727499456144869/tmp.tgz
+524 silly lockFile 89a0f4a9--org-inquirer-inquirer-0-4-0-tgz https://registry.npmjs.org/inquirer/-/inquirer-0.4.0.tgz
+525 silly lockFile 89a0f4a9--org-inquirer-inquirer-0-4-0-tgz https://registry.npmjs.org/inquirer/-/inquirer-0.4.0.tgz
+526 silly lockFile 149ad4a7-inquirer-0-4-0 inquirer@0.4.0
+527 silly lockFile 149ad4a7-inquirer-0-4-0 inquirer@0.4.0
+528 silly gunzTarPerm extractEntry lib/renderers/JsonRenderer.js
+529 silly gunzTarPerm extractEntry lib/renderers/StandardRenderer.js
+530 error Error: EACCES, open '/Users/danielpetkevich/.npm/q/1.0.0/package.tgz'
+530 error  { [Error: EACCES, open '/Users/danielpetkevich/.npm/q/1.0.0/package.tgz']
+530 error   errno: 3,
+530 error   code: 'EACCES',
+530 error   path: '/Users/danielpetkevich/.npm/q/1.0.0/package.tgz',
+530 error   parent: 'generator-steroids' }
+531 error Please try running this command again as root/Administrator.
+532 error System Darwin 13.1.0
+533 error command "node" "/usr/local/bin/npm" "install" "generator-steroids"
+534 error cwd /Users/danielpetkevich/Desktop/Guess
+535 error node -v v0.10.28
+536 error npm -v 1.4.9
+537 error path /Users/danielpetkevich/.npm/q/1.0.0/package.tgz
+538 error code EACCES
+539 error errno 3
+540 error stack Error: EACCES, open '/Users/danielpetkevich/.npm/q/1.0.0/package.tgz'
+541 verbose exit [ 3, true ]
