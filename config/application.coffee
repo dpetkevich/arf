@@ -4,7 +4,7 @@
 steroids.config.name = "Guess"
 
 # ## Start Location
-steroids.config.location = "http://localhost/views/home/sendTo.html"
+steroids.config.location = "http://localhost/views/home/index.html"
 
 # ## Tab Bar
 # steroids.config.tabBar.enabled = true

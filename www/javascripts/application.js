@@ -24,9 +24,15 @@ $( document ).ready(function() {
 
 	$('.personRow').hammer({}).on("tap",function(event){
 
-		
 		$(this).children('i').toggleClass('ion-ios7-circle-outline ion-ios7-circle-filled');
 
+		if( $('.personRow').children('i').hasClass('ion-ios7-circle-filled') ){
+			$('#sendFooter').show()
+		}
+		else{
+		    $('#sendFooter').hide()
+
+		}
 
 	})
 
